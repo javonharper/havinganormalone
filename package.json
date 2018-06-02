@@ -1,0 +1,27 @@
+{
+  "name": "havinganormalone",
+  "version": "0.0.1",
+  "description": "A simulation of wants and needs",
+  "main": "src/game.js",
+  "scripts": {
+    "test": "test",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javonharper/havinganormalone.git"
+  },
+  "author": "Javon Harper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javonharper/havinganormalone/issues"
+  },
+  "homepage": "https://github.com/javonharper/havinganormalone#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "rot-js": "^0.6.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  }
+}

@@ -1,4 +1,6 @@
 // @format
+import ROT from 'rot-js'
+import _ from 'lodash'
 
 const display = new ROT.Display({ width: 50, height: 25 })
 document.body.appendChild(display.getContainer())
@@ -44,8 +46,8 @@ const guy = {
     if (_.isEmpty(path)) {
       engine.lock()
     } else {
-      x = path[0][0]
-      y = path[0][1]
+      const x = path[0][0]
+      const y = path[0][1]
       coords[0] = x
       coords[1] = y
 

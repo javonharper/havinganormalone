@@ -2,7 +2,7 @@
 # Having a Normal One: A simulation of wants and needs.
 
 ## Install deps
-`yarn global add parcel-bundler`
+`yarn install`
 
 ## Running
-`parcel index.html`
+`yarn start`
