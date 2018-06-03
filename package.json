@@ -19,6 +19,7 @@
   "homepage": "https://github.com/javonharper/havinganormalone#readme",
   "dependencies": {
     "lodash": "^4.17.10",
+    "redux": "^4.0.0",
     "rot-js": "^0.6.5"
   },
   "devDependencies": {
